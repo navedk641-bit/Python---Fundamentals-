@@ -1,0 +1,12 @@
+# Remove Duplicate Characters from a String
+
+text = input("Enter a string: ")
+
+result = ""
+
+for char in text:
+    if char not in result:
+        result += char
+
+print("Original String:", text)
+print("String after removing duplicates:", result)
